@@ -234,6 +234,7 @@ export default class App extends Component {
                     <div class="top-menu">
                         <span class="left">Superblocks Studio {this._version} (Asparagus)</span>
                         <span class="right">Need help? <a href="https://t.me/GetSuperblocks" target="_blank">Join us on Telegram!</a></span>
+                        <span class="linkToLab">This version is legacy, Studio has been renamed to Lab. <a href="https://lab.superblocks.com" target="_blank">Please move to Superblocks Lab today.</a></span>
                     </div>
                     <div class="maincontent">
                         <ProjectEditor key="projedit" functions={this.functions} />
